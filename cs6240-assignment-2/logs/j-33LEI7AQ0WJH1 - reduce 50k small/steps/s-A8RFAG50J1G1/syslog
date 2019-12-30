@@ -1,0 +1,78 @@
+2019-10-02 19:00:05,123 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 89%
+2019-10-02 19:00:12,134 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 90%
+2019-10-02 19:00:23,151 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 91%
+2019-10-02 19:00:36,172 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 92%
+2019-10-02 19:00:42,181 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 93%
+2019-10-02 19:00:54,200 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 94%
+2019-10-02 19:01:06,219 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 95%
+2019-10-02 19:01:16,234 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 96%
+2019-10-02 19:01:28,252 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 97%
+2019-10-02 19:01:40,270 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 98%
+2019-10-02 19:01:52,288 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 99%
+2019-10-02 19:02:02,307 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2019-10-02 19:02:10,324 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1570039764088_0002 completed successfully
+2019-10-02 19:02:10,386 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 57
+	File System Counters
+		FILE: Number of bytes read=8741948004
+		FILE: Number of bytes written=14925071287
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=20308624033
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=330
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=1319505005
+		S3: Number of bytes written=0
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=2
+		Launched map tasks=175
+		Launched reduce tasks=9
+		Data-local map tasks=20
+		Rack-local map tasks=155
+		Total time spent by all maps in occupied slots (ms)=1243901568
+		Total time spent by all reduces in occupied slots (ms)=950991360
+		Total time spent by all map tasks (ms)=25914616
+		Total time spent by all reduce tasks (ms)=9906160
+		Total vcore-milliseconds taken by all map tasks=25914616
+		Total vcore-milliseconds taken by all reduce tasks=9906160
+		Total megabyte-milliseconds taken by all map tasks=39804850176
+		Total megabyte-milliseconds taken by all reduce tasks=30431723520
+	Map-Reduce Framework
+		Map input records=1290963206
+		Map output records=1206787928
+		Map output bytes=12067879280
+		Map output materialized bytes=6228808651
+		Input split bytes=50275
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=303249748
+		Reduce shuffle bytes=6228808651
+		Reduce input records=1206787928
+		Reduce output records=0
+		Spilled Records=3599484862
+		Shuffled Maps =1575
+		Failed Shuffles=0
+		Merged Map outputs=1575
+		GC time elapsed (ms)=145608
+		CPU time spent (ms)=16505590
+		Physical memory (bytes) snapshot=152334262272
+		Virtual memory (bytes) snapshot=620491841536
+		Total committed heap usage (bytes)=137848422400
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+	rs.ReduceSideJoin$TriangleCount
+		COUNT=36089721

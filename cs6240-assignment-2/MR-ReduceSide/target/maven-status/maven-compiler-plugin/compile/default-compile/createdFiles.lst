@@ -1,0 +1,8 @@
+rs/ReduceSideJoin.class
+rs/ReduceSideJoin$PathLength2Mapper.class
+rs/ReduceSideJoin$Job2PathMapper.class
+rs/ReduceSideJoin$TriangleCount.class
+rs/Job2CustomKey.class
+rs/ReduceSideJoin$PathLength2Reducer.class
+rs/ReduceSideJoin$Job2Reducer.class
+rs/ReduceSideJoin$Job2EdgesMapper.class

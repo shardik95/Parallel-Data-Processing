@@ -1,0 +1,12 @@
+[
+   {
+      "Classification":"yarn-site",
+      "Properties":{
+         "yarn.nodemanager.disk-health-checker.enable":"true",
+         "yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage":"100.0",
+         "yarn.nodemanager.vmem-check-enabled":"false",
+         "yarn.nodemanager.vmem-pmem-ratio":"3.0"
+      },
+      "Configurations":[]
+   }
+]

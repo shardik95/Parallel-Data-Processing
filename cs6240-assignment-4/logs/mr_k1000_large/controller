@@ -1,0 +1,58 @@
+2019-10-29T21:45:28.494Z INFO Ensure step 2 jar file s3://hardiks-bucket/assignment-4-1.0.jar
+2019-10-29T21:45:29.922Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-SNSRKARVH7LT/assignment-4-1.0.jar PageRank.PageRankMR s3://hardiks-bucket/input s3://hardiks-bucket/output'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-SNSRKARVH7LT/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  PYTHON_INSTALL_LAYOUT=amzn
+  HOSTNAME=ip-172-31-93-115
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-SNSRKARVH7LT
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-SNSRKARVH7LT/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-SNSRKARVH7LT/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-SNSRKARVH7LT
+INFO ProcessRunner started child process 8387 :
+hadoop    8387  4865  0 21:45 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-SNSRKARVH7LT/assignment-4-1.0.jar PageRank.PageRankMR s3://hardiks-bucket/input s3://hardiks-bucket/output
+2019-10-29T21:45:33.962Z INFO HadoopJarStepRunner.Runner: startRun() called for s-SNSRKARVH7LT Child Pid: 8387
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-SNSRKARV...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-SNSRKARV...
+INFO total process run time: 768 seconds
+2019-10-29T21:58:20.161Z INFO Step created jobs: job_1572385431436_0001,job_1572385431436_0002,job_1572385431436_0003,job_1572385431436_0004,job_1572385431436_0005,job_1572385431436_0006,job_1572385431436_0007,job_1572385431436_0008,job_1572385431436_0009,job_1572385431436_0010,job_1572385431436_0011
+2019-10-29T21:58:20.161Z INFO Step succeeded with exitCode 0 and took 768 seconds

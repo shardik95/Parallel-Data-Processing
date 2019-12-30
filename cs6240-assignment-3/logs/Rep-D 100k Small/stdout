@@ -1,0 +1,14 @@
+Social Triangle Count47594048
+*(3) BroadcastHashJoin [df2_Y#11, df1_X#6], [userIdX#2, userIdY#3], Inner, BuildRight
+:- *(3) BroadcastHashJoin [df1_Y#7], [df2_X#10], Inner, BuildRight, NOT (df1_X#6 = df2_Y#11)
+:  :- *(3) Project [userIdX#2 AS df1_X#6, userIdY#3 AS df1_Y#7]
+:  :  +- *(3) Filter (isnotnull(userIdX#2) && isnotnull(userIdY#3))
+:  :     +- Scan ExistingRDD[userIdX#2,userIdY#3]
+:  +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, true]))
+:     +- *(1) Project [userIdX#2 AS df2_X#10, userIdY#3 AS df2_Y#11]
+:        +- *(1) Filter (isnotnull(userIdX#2) && isnotnull(userIdY#3))
+:           +- Scan ExistingRDD[userIdX#2,userIdY#3]
++- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, false], input[1, string, false]))
+   +- *(2) Filter (isnotnull(userIdX#2) && isnotnull(userIdY#3))
+      +- Scan ExistingRDD[userIdX#2,userIdY#3]
+

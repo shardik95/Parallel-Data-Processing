@@ -1,0 +1,60 @@
+2019-10-04T15:35:04.497Z INFO Ensure step 2 jar file s3://hardiks-bucket/assignment-2-1.0.jar
+2019-10-04T15:35:06.103Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-1Z6VQBK0PEM2E/assignment-2-1.0.jar rj.ReplicatedJoinTwitter s3://hardiks-bucket/input s3://hardiks-bucket/output'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-1Z6VQBK0PEM2E/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  PYTHON_INSTALL_LAYOUT=amzn
+  HOSTNAME=ip-172-31-42-251
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-1Z6VQBK0PEM2E
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-1Z6VQBK0PEM2E/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-1Z6VQBK0PEM2E/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-1Z6VQBK0PEM2E
+INFO ProcessRunner started child process 8356 :
+hadoop    8356  4853  1 15:35 ?        00:00:00 /etc/alternatives/jre/bin/java -Xmx1000m -server -XX:OnOutOfMemoryError=kill -9 %p -Dhadoop.log.dir=/mnt/var/log/hadoop/steps/s-1Z6VQBK0PEM2E -Dhadoop.log.file=syslog -Dhadoop.home.dir=/usr/lib/hadoop -Dhadoop.id.str=hadoop -Dhadoop.root.logger=INFO,DRFA -Djava.library.path=:/usr/lib/hadoop-lzo/lib/native:/usr/lib/hadoop/lib/native -Dhadoop.policy.file=hadoop-policy.xml -Djava.net.preferIPv4Stack=true -Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-1Z6VQBK0PEM2E/tmp -Dhadoop.security.logger=INFO,NullAppender -Dsun.net.inetaddr.ttl=30 org.apache.hadoop.util.RunJar /mnt/var/lib/hadoop/steps/s-1Z6VQBK0PEM2E/assignment-2-1.0.jar rj.ReplicatedJoinTwitter s3://hardiks-bucket/input s3://hardiks-bucket/output
+2019-10-04T15:35:10.150Z INFO HadoopJarStepRunner.Runner: startRun() called for s-1Z6VQBK0PEM2E Child Pid: 8356
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-1Z6VQBK0...
+INFO Process still running
+INFO Process still running
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-1Z6VQBK0...
+INFO total process run time: 2432 seconds
+2019-10-04T16:15:40.478Z INFO Step created jobs: job_1570203205751_0001
+2019-10-04T16:15:40.478Z INFO Step succeeded with exitCode 0 and took 2432 seconds

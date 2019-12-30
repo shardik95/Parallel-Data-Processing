@@ -1,0 +1,20 @@
+Social Triangle Count 12029907
+*(9) SortMergeJoin [df2_Y#11, df1_X#6], [userIdX#2, userIdY#3], Inner
+:- *(6) Sort [df2_Y#11 ASC NULLS FIRST, df1_X#6 ASC NULLS FIRST], false, 0
+:  +- Exchange hashpartitioning(df2_Y#11, df1_X#6, 200)
+:     +- *(5) SortMergeJoin [df1_Y#7], [df2_X#10], Inner, NOT (df1_X#6 = df2_Y#11)
+:        :- *(2) Sort [df1_Y#7 ASC NULLS FIRST], false, 0
+:        :  +- Exchange hashpartitioning(df1_Y#7, 200)
+:        :     +- *(1) Project [userIdX#2 AS df1_X#6, userIdY#3 AS df1_Y#7]
+:        :        +- *(1) Filter (isnotnull(userIdX#2) && isnotnull(userIdY#3))
+:        :           +- Scan ExistingRDD[userIdX#2,userIdY#3]
+:        +- *(4) Sort [df2_X#10 ASC NULLS FIRST], false, 0
+:           +- Exchange hashpartitioning(df2_X#10, 200)
+:              +- *(3) Project [userIdX#2 AS df2_X#10, userIdY#3 AS df2_Y#11]
+:                 +- *(3) Filter (isnotnull(userIdX#2) && isnotnull(userIdY#3))
+:                    +- Scan ExistingRDD[userIdX#2,userIdY#3]
++- *(8) Sort [userIdX#2 ASC NULLS FIRST, userIdY#3 ASC NULLS FIRST], false, 0
+   +- Exchange hashpartitioning(userIdX#2, userIdY#3, 200)
+      +- *(7) Filter (isnotnull(userIdX#2) && isnotnull(userIdY#3))
+         +- Scan ExistingRDD[userIdX#2,userIdY#3]
+

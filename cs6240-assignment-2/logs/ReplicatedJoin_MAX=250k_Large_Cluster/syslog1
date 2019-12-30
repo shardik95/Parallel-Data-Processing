@@ -1,0 +1,72 @@
+2019-10-04 16:35:24,304 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-35-164.ec2.internal/172.31.35.164:8032
+2019-10-04 16:35:27,286 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2019-10-04 16:35:27,297 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2019-10-04 16:35:27,300 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev 7e6c862e89bc8db32c064454a55af74ddff73bae]
+2019-10-04 16:35:28,149 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:20
+2019-10-04 16:35:28,323 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1570206847787_0001
+2019-10-04 16:35:29,117 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1570206847787_0001
+2019-10-04 16:35:29,361 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-35-164.ec2.internal:20888/proxy/application_1570206847787_0001/
+2019-10-04 16:35:29,362 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1570206847787_0001
+2019-10-04 16:36:06,691 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1570206847787_0001 running in uber mode : false
+2019-10-04 16:36:06,693 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2019-10-04 16:37:40,119 INFO org.apache.hadoop.mapreduce.Job (main):  map 5% reduce 0%
+2019-10-04 16:37:41,123 INFO org.apache.hadoop.mapreduce.Job (main):  map 10% reduce 0%
+2019-10-04 16:37:42,127 INFO org.apache.hadoop.mapreduce.Job (main):  map 15% reduce 0%
+2019-10-04 16:38:00,194 INFO org.apache.hadoop.mapreduce.Job (main):  map 20% reduce 0%
+2019-10-04 16:38:04,208 INFO org.apache.hadoop.mapreduce.Job (main):  map 21% reduce 0%
+2019-10-04 16:38:27,290 INFO org.apache.hadoop.mapreduce.Job (main):  map 26% reduce 0%
+2019-10-04 16:38:28,294 INFO org.apache.hadoop.mapreduce.Job (main):  map 28% reduce 0%
+2019-10-04 16:38:29,298 INFO org.apache.hadoop.mapreduce.Job (main):  map 33% reduce 0%
+2019-10-04 16:38:34,316 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2019-10-04 16:38:40,338 INFO org.apache.hadoop.mapreduce.Job (main):  map 36% reduce 0%
+2019-10-04 16:38:46,362 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2019-10-04 16:38:52,380 INFO org.apache.hadoop.mapreduce.Job (main):  map 38% reduce 0%
+2019-10-04 16:38:57,398 INFO org.apache.hadoop.mapreduce.Job (main):  map 39% reduce 0%
+2019-10-04 16:38:58,401 INFO org.apache.hadoop.mapreduce.Job (main):  map 40% reduce 0%
+2019-10-04 16:39:02,413 INFO org.apache.hadoop.mapreduce.Job (main):  map 44% reduce 0%
+2019-10-04 16:39:04,442 INFO org.apache.hadoop.mapreduce.Job (main):  map 45% reduce 0%
+2019-10-04 16:39:10,470 INFO org.apache.hadoop.mapreduce.Job (main):  map 46% reduce 0%
+2019-10-04 16:39:20,521 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 0%
+2019-10-04 16:39:33,568 INFO org.apache.hadoop.mapreduce.Job (main):  map 48% reduce 0%
+2019-10-04 16:39:57,644 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 0%
+2019-10-04 16:40:06,667 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 0%
+2019-10-04 16:40:12,694 INFO org.apache.hadoop.mapreduce.Job (main):  map 53% reduce 0%
+2019-10-04 16:40:14,701 INFO org.apache.hadoop.mapreduce.Job (main):  map 54% reduce 0%
+2019-10-04 16:40:16,707 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 0%
+2019-10-04 16:40:19,718 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 0%
+2019-10-04 16:40:20,721 INFO org.apache.hadoop.mapreduce.Job (main):  map 59% reduce 0%
+2019-10-04 16:40:21,724 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 0%
+2019-10-04 16:40:24,735 INFO org.apache.hadoop.mapreduce.Job (main):  map 61% reduce 0%
+2019-10-04 16:40:25,737 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 0%
+2019-10-04 16:40:26,740 INFO org.apache.hadoop.mapreduce.Job (main):  map 63% reduce 0%
+2019-10-04 16:40:27,743 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 0%
+2019-10-04 16:40:30,751 INFO org.apache.hadoop.mapreduce.Job (main):  map 65% reduce 0%
+2019-10-04 16:40:31,754 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 0%
+2019-10-04 16:40:32,757 INFO org.apache.hadoop.mapreduce.Job (main):  map 68% reduce 0%
+2019-10-04 16:40:36,767 INFO org.apache.hadoop.mapreduce.Job (main):  map 69% reduce 0%
+2019-10-04 16:40:37,770 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 0%
+2019-10-04 16:40:38,775 INFO org.apache.hadoop.mapreduce.Job (main):  map 72% reduce 0%
+2019-10-04 16:40:39,777 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 0%
+2019-10-04 16:40:42,787 INFO org.apache.hadoop.mapreduce.Job (main):  map 74% reduce 0%
+2019-10-04 16:40:43,790 INFO org.apache.hadoop.mapreduce.Job (main):  map 75% reduce 0%
+2019-10-04 16:40:44,793 INFO org.apache.hadoop.mapreduce.Job (main):  map 76% reduce 0%
+2019-10-04 16:40:48,803 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 0%
+2019-10-04 16:40:49,806 INFO org.apache.hadoop.mapreduce.Job (main):  map 78% reduce 0%
+2019-10-04 16:40:51,812 INFO org.apache.hadoop.mapreduce.Job (main):  map 79% reduce 0%
+2019-10-04 16:40:54,819 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 0%
+2019-10-04 16:40:55,822 INFO org.apache.hadoop.mapreduce.Job (main):  map 81% reduce 0%
+2019-10-04 16:40:57,827 INFO org.apache.hadoop.mapreduce.Job (main):  map 82% reduce 0%
+2019-10-04 16:40:59,832 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 0%
+2019-10-04 16:41:02,845 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 0%
+2019-10-04 16:41:06,855 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 0%
+2019-10-04 16:41:10,866 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 0%
+2019-10-04 16:41:12,871 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 0%
+2019-10-04 16:41:14,880 INFO org.apache.hadoop.mapreduce.Job (main):  map 88% reduce 0%
+2019-10-04 16:41:18,890 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 0%
+2019-10-04 16:41:24,912 INFO org.apache.hadoop.mapreduce.Job (main):  map 90% reduce 0%
+2019-10-04 16:41:30,929 INFO org.apache.hadoop.mapreduce.Job (main):  map 91% reduce 0%
+2019-10-04 16:41:39,954 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 0%
+2019-10-04 16:46:05,673 INFO org.apache.hadoop.mapreduce.Job (main):  map 93% reduce 0%
+2019-10-04 16:49:34,147 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 0%
+2019-10-04 16:53:36,696 INFO org.apache.hadoop.mapreduce.Job (main):  map 95% reduce 0%
+2019-10-04 16:58:16,351 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 0%
